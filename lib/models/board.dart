@@ -1,4 +1,4 @@
-enum CellState { empty, ship, hit, miss, sunk }
+import 'package:battaglia_navale/models/enums.dart';
 
 class Cell {
   CellState state;

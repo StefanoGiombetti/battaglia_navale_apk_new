@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:battaglia_navale/controllers/game_controller.dart';
 import 'package:battaglia_navale/widgets/board_widget.dart';
+import 'package:battaglia_navale/models/enums.dart';
 
 class GameplayScreen extends StatefulWidget {
   const GameplayScreen({Key? key}) : super(key: key);
@@ -165,14 +166,4 @@ class _GameplayScreenState extends State<GameplayScreen> {
       ),
     );
   }
-}
-
-enum GameStatus {
-  waitingForOpponent,
-  ready,
-  yourTurn,
-  opponentTurn,
-  won,
-  lost,
-  disconnected,
 }

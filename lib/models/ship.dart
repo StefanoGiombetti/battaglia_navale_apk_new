@@ -1,6 +1,5 @@
 import 'package:uuid/uuid.dart';
-
-enum ShipOrientation { horizontal, vertical }
+import 'package:battaglia_navale/models/enums.dart';
 
 class Ship {
   final String id;

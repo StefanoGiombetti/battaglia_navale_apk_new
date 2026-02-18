@@ -1,14 +1,4 @@
-enum GamePhase { lobby, setup, shipPlacement, gameplay, gameOver }
-
-enum GameStatus {
-  waitingForOpponent,
-  ready,
-  yourTurn,
-  opponentTurn,
-  won,
-  lost,
-  disconnected,
-}
+import 'package:battaglia_navale/models/enums.dart';
 
 class GameState {
   final GamePhase phase;

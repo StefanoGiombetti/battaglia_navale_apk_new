@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:battaglia_navale/models/board.dart';
 import 'package:battaglia_navale/models/game_config.dart';
 import 'package:battaglia_navale/models/ship.dart';
+import 'package:battaglia_navale/models/enums.dart';
 
 // Servizio per la logica di gioco e comunicazione dei messaggi
 
@@ -160,5 +161,3 @@ class GameService {
     );
   }
 }
-
-enum ShotResult { hit, miss, sunk, alreadyShot }

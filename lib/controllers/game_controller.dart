@@ -3,6 +3,7 @@ import 'package:battaglia_navale/models/game_config.dart';
 import 'package:battaglia_navale/models/game_state.dart';
 import 'package:battaglia_navale/models/board.dart';
 import 'package:battaglia_navale/models/ship.dart';
+import 'package:battaglia_navale/models/enums.dart';
 import 'package:battaglia_navale/services/game_service.dart';
 import 'package:battaglia_navale/services/bluetooth_service.dart';
 
