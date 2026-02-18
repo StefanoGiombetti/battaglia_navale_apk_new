@@ -12,7 +12,6 @@ dependencies:
     sdk: flutter
 
   # State Management
-  getx: ^4.6.5
   get: ^4.6.5
 
   # Bluetooth LE
